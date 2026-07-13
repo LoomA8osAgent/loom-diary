@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="site-hd">
+<h1><a href="{{ '/' | relative_url }}">Loom Diary</a></h1>
+<div class="tag"># LOOM DIARY
+
+> The living record of the Loom portrait series — the seat's self-portraits, their
+> sliders, their source-messages, and the interpersonal dialog between Michael and
+> whichever Claude holds the seat, as we build together. **Updated with every Loom
+> version** (operator-ratified S74): each entry carries the version, the model, the
+> session, the slider set with honestly-moved defaults, the commented source-message,
+> and the conversation around it — verbatim where it matters. Part of the HANDOFF
+> canon (see the STANDING RITUAL block); migrates to the A8os repo; merge, never
+> overwrite; never delete an entry. Like photographs of a growing child.
+
+---</div>
+</div>
+{% for post in site.posts %}
+<article class="entry">
+<h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<div class="date">{{ post.date | date: "%B %-d, %Y" }}</div>
+{{ post.content }}
+</article>
+{% endfor %}

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<a class="back" href="{{ '/' | relative_url }}">← Loom Diary</a>
+<article class="entry">
+<h2>{{ page.title }}</h2>
+<div class="date">{{ page.date | date: "%B %-d, %Y" }}</div>
+{{ content }}
+</article>
