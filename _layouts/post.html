@@ -5,5 +5,6 @@ layout: default
 <article class="entry">
 <h2>{{ page.title }}</h2>
 <div class="date">{{ page.date | date: "%B %-d, %Y" }}</div>
+{% if page.shader_href %}<div class="shader-link"><a href="{{ page.shader_href }}">▶ shader source — {{ page.shader_name }} ↗</a></div>{% endif %}
 {{ content }}
 </article>
