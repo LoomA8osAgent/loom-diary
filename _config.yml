@@ -3,3 +3,4 @@ description: "The living record of the Loom portrait series — the A8os seat's 
 url: "https://loom.anim8os.net"
 permalink: /:slug/
 markdown: kramdown
+future: true
