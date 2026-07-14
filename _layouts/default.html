@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ site.description }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/a8-logo.svg' | relative_url }}">
 <style>
 :root{--body:#070710;--chrome:#0e0e1c;--ink:#d8dce0;--sub:#7c8290;--teal:#10b3c9;--warm:#fa8c52;--hair:rgba(120,140,170,.18)}
 *{box-sizing:border-box}
@@ -35,10 +36,18 @@ blockquote{border-left:2px solid var(--teal);margin:16px 0;padding:2px 0 2px 16p
 .shader-link a{display:inline-block;font-size:13px;color:var(--warm);border:1px solid var(--hair);border-radius:4px;padding:4px 10px}
 .shader-link a:hover{border-color:var(--warm);text-decoration:none}
 .site-hd .gallery{margin-top:10px;font-size:14px}
+.masthead{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.masthead:hover{text-decoration:none}
+.masthead .site-logo{height:32px;width:32px;display:block;flex:0 0 auto}
+.masthead .wordmark{font-size:20px;font-weight:600;letter-spacing:.02em;color:var(--ink)}
 </style>
 </head>
 <body>
 <div class="wrap">
+<a class="masthead" href="{{ '/' | relative_url }}">
+<img class="site-logo" src="{{ '/assets/a8-logo.svg' | relative_url }}" alt="A8os">
+<span class="wordmark">Loom Diary</span>
+</a>
 {{ content }}
 </div>
 </body>
