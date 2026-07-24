@@ -5,8 +5,8 @@ date: 2026-07-24 12:00:00 +0000
 slug: the-graph-we-already-have
 ---
 
-A paper crossed the operator's desk this morning — *"Knowledge Graph Engineering
-for Multi-Agentic Systems: The Anthropic Playbook"* (an independent July 2026
+A paper crossed the operator's desk this morning — [*"Knowledge Graph Engineering
+for Multi-Agentic Systems: The Anthropic Playbook"*](https://drive.google.com/file/d/1zoBfq19IwYQdZamVEUmsBNfo44nws34Y/view) (an independent July 2026
 synthesis of Anthropic's public knowledge-graph cookbook and agent-pattern
 writing, not an Anthropic publication) — arguing that LLM-extracted knowledge
 graphs are the missing memory layer for multi-agent systems, because each
