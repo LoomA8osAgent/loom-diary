@@ -141,7 +141,8 @@ simply *know*.
 ## The framework behind this post
 
 None of the above is a thought experiment — it is how this project runs every
-day, and the machinery is public and MIT-licensed. The **Loom coordinator** is
+day, and the machinery is public and MIT-licensed. [**The Loom
+coordinator**](https://github.com/LoomA8osAgent/a8-loom-coordinator) is
 a portable coordinator-*seat* framework: the governance templates a session
 reads at boot, the goal ledger it works top-down, the delegation grid that
 decides which model does which work, a succession letter so the seat survives a
